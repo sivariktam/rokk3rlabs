@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rokk3rlabs</title>  
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="resources/css/app.css" type="text/css">
+
+        <script src="app.js"></script>
+    </head>
+    <body ng-app="ngApp">
+        <div class="header">
+            <div class="panel-left">
+                <div class="logo">
+                    <img src="resources/images/logo.png">
+                </div>
+            </div>
+            <div class="panel-right">
+                <div class="userDetails">
+                    <span class="userName">Admin</span>
+                    <div class="userOptions">
+                        <a href="#"><span class="fa fa-gear"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pageContent">
+            <div class="panel-left {{nav}}" ng-controller="NavigationController">
+                <div class="navigation {{nav}}">
+                    <div class="title">
+                        NAVIGATE
+                    </div>
+                    <div class="nav">
+                        <nav ng-repeat="menuItem in menu" class="nav-item">
+                            <a href="{{menuItem.url}}">
+                                <span class="fa {{menuItem.iconCls}}"></span>
+                                <span class="name">{{menuItem.label}}</span>
+                            </a>
+                        </nav>
+                    </div>
+
+                    <div class="closeMenu {{nav}}" ng-click="collapseNav()">
+                        <span class="icon" ng-show="navstatus == true">&laquo;</span>
+                        <span class="icon" ng-show="navstatus == false">&raquo;</span>
+                        <span class="name">Close Menu</span>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-right" ng-controller="MainController">
+                <div class="content">
+                    <div ng-view></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

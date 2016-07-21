@@ -1,0 +1,60 @@
+
+<div class="news-container">
+	<div class="column">
+		<div ng-repeat="newsData in column1News">
+			<div class="news">
+				<div class="newsStatus" ng-show="newsData.status == 'watched'">
+					<span class="fa fa-eye-slash">&nbsp;&nbsp;watched</span>
+				</div>
+				<span class="title">{{newsData.title}}</span><span class="date">{{newsData.date}}</span>
+				<div class="clearboth"></div>
+				<div class="headerDescription">{{newsData.header}}</div>
+				<div class="image" style="background-image: url('{{newsData.url}}')" ng-show="newsData.url !== ''"></div>
+				<div class="description">{{newsData.description}}</div>
+				<div class="newsFooter">
+					<span class="fa fa-briefcase left"></span>
+					<span class="fa fa-thumbs-o-up center">{{newsData.likes_count}}</span>
+					<span class="fa fa-mail-forward right"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="column">
+		<div ng-repeat="newsData in column2News">
+			<div class="news">
+				<div class="newsStatus" ng-show="newsData.status == 'watched'">
+					<span class="fa fa-eye-slash">&nbsp;&nbsp;watched</span>
+				</div>
+				<span class="title">{{newsData.title}}</span><span class="date">{{newsData.date}}</span>
+				<div class="clearboth"></div>
+				<div class="headerDescription">{{newsData.header}}</div>
+				<div class="image" style="background-image: url('{{newsData.url}}')" ng-show="newsData.url !== ''"></div>
+				<div class="description">{{newsData.description}}</div>
+				<div class="newsFooter">
+					<span class="fa fa-briefcase left"></span>
+					<span class="fa fa-thumbs-o-up center">{{newsData.likes_count}}</span>
+					<span class="fa fa-mail-forward right"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="column">
+		<div ng-repeat="newsData in column3News">
+			<div class="news">
+				<div class="newsStatus" ng-show="newsData.status == 'watched'">
+					<span class="fa fa-eye-slash">&nbsp;&nbsp;watched</span>
+				</div>
+				<span class="title">{{newsData.title}}</span><span class="date">{{newsData.date}}</span>
+				<div class="clearboth"></div>
+				<div class="headerDescription">{{newsData.header}}</div>
+				<div class="image" style="background-image: url('{{newsData.url}}')" ng-show="newsData.url !== ''"></div>
+				<div class="description">{{newsData.description}}</div>
+				<div class="newsFooter">
+					<span class="fa fa-briefcase left"></span>
+					<span class="fa fa-thumbs-o-up center">{{newsData.likes_count}}</span>
+					<span class="fa fa-mail-forward right"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

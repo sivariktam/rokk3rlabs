@@ -1,0 +1,31 @@
+html, body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.panel-left {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  &.collapse {
+    width: 50px;
+  }
+}
+
+.panel-right {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.clearboth {
+  clear: both;
+}

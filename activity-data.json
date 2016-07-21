@@ -1,0 +1,19 @@
+[
+    {"zoneId":"Calle 85", "data":{"count":1,"speed":10,"time":1466781876681}, "color":"#fab13e"},
+    {"zoneId":"Salitre plaza", "data":{"count":2,"speed":8.5,"time":1466781876681}, "color":"#7fd20d"},
+    {"zoneId":"Parque 93", "data":{"count":4,"speed":15,"time":1466781876681}, "color":"#5c9df5"},
+    {"zoneId":"Calle 80", "data":{"count":3,"speed":13.5,"time":1466781876681}, "color":"#da6fe7"},
+    {"zoneId":"Centro", "data":{"count":1,"speed": 9 ,"time":1466781876681}, "color":"#ef0000"},
+
+    {"zoneId":"Calle 85", "data":{"count":1,"speed":10,"time":1469111611180}, "color":"#fab13e"},
+    {"zoneId":"Salitre plaza", "data":{"count":2,"speed":8.5,"time":1469111611180}, "color":"#7fd20d"},
+    {"zoneId":"Parque 93", "data":{"count":4,"speed":15,"time":1469111611180}, "color":"#5c9df5"},
+    {"zoneId":"Calle 80", "data":{"count":3,"speed":13.5,"time":1469111611180}, "color":"#da6fe7"},
+    {"zoneId":"Centro", "data":{"count":1,"speed": 9 ,"time":1469111611180}, "color":"#ef0000"},
+
+    {"zoneId":"Calle 85", "data":{"count":1,"speed":10,"time":1469113240664}, "color":"#fab13e"},
+    {"zoneId":"Salitre plaza", "data":{"count":2,"speed":8.5,"time":1469113240664}, "color":"#7fd20d"},
+    {"zoneId":"Parque 93", "data":{"count":4,"speed":15,"time":1469113240664}, "color":"#5c9df5"},
+    {"zoneId":"Calle 80", "data":{"count":3,"speed":13.5,"time":1469113240664}, "color":"#da6fe7"},
+    {"zoneId":"Centro", "data":{"count":1,"speed": 9 ,"time":1469113240664}, "color":"#ef0000"}
+]

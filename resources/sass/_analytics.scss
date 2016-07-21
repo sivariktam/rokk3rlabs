@@ -1,0 +1,38 @@
+div.chart1 {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid 1px #e7e7ed;
+  margin: 20px;
+  .title {
+    padding: 10px;
+    color: #7cb2ed;
+  }
+}
+div.chart2 {
+  width: 65%;
+  float: left;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid 1px #e7e7ed;
+  margin-left: 20px;
+  .title {
+    padding: 10px;
+    color: #7cb2ed;
+  }
+}
+div.chart3 {
+  width: 30%;
+  float: right;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: solid 1px #e7e7ed;
+  margin-right: 20px;
+  .title {
+    padding: 10px;
+    color: #7cb2ed;
+  }
+}
+#chart1, #chart2, #chart3 {
+  width: 100% !important;
+}
